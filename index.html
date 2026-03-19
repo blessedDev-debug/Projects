@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+<body>
+    <nav class="navigations">
+        <div class="logo">
+            <h2>blesseDev</h2>
+        </div>  
+        <div class="nav-links">
+            <a href="#home"><i class="fas fa-home"></i> Home</a>
+            <a href="#about"><i class="fas fa-user"></i> About</a>
+            <a href="#project"><i class="fas fa-folder"></i> Projects</a>
+            <a href="#contact"><i class="fas fa-phone"></i> Contacts</a>
+        </div>
+    </nav>
+    <section id="home" class="hero-section">
+        <div class="hero-text">
+            <h1> Hello, I'm Ofofonono Gabriel</h1>
+            <h2>JavaScript developer</h2>
+            <p>I build interactive and modern websites</p>
+        
+        <div class="hero-buttons">
+            <a href="#" id="prjcts-btn">
+                <button>Projects</button>
+            </a>
+            <a href="#contact-section" id="contact-btn">
+                <button>Contact Me</button>
+            </a>
+        </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/profile-img.JPG" alt="Blessedev-profile">
+        </div>
+        
+    </section>
+    <section id="about" class="about-section">
+        <h2>About me</h2>
+        <p>I am Ofofonono Gabriel, a JavaScript developer. I  create modern, interactive, responsive, user-friendly web experiences.</p>
+        <div class="skills">
+            <div class="skill-card"><p class="p"m>HTML</p><img class="img" src="images/html-logo.png" alt=""></div>
+            <div class="skill-card"><p class="p">CSS</p><img class="img" src="images/css-logo.png" alt=""></div>
+            <div class="skill-card"><p class="p">JavaScript</p><img class="img" src="images/js-logo.png" alt=""></div>
+        </div>
+    </section>
+    <section id="project" class="project-section">
+            <h2 class="section-title">My Projects</h2>
+            
+            <div class="projects-container">
+            
+            <!-- Project 1 -->
+            
+            <div class="project-card">
+            
+            <img src="images/calculator.png" alt="Calculator Project">
+            
+            <div class="project-info">
+            <h3>Calculator App</h3>
+            
+            <p>
+            A simple calculator built with HTML, CSS and JavaScript.
+            Supports keyboard input and responsive design.
+            </p>
+            
+            <div class="project-buttons">
+            
+            <a href="projects/calculator/index.html" class="btn demo">Live Demo</a>
+            
+            <a href="#" class="btn code">GitHub</a>
+            
+            </div>
+            
+            </div>
+            
+            </div>
+            
+            
+            <!-- Project 2 -->
+            
+            <div class="project-card">
+            
+            <img src="images/counter.png">
+            
+            <div class="project-info">
+            
+            <h3>Counter App</h3>
+            
+            <p>
+            A counter application that increments, decrements and resets values using JavaScript.
+            </p>
+            
+            <div class="project-buttons">
+            
+            <a href="#" class="btn demo">Live Demo</a>
+            
+            <a href="#" class="btn code">GitHub</a>
+            
+            </div>
+            
+            </div>
+            
+            </div>
+            
+            
+            <!-- Project 3 -->
+            
+            <div class="project-card">
+            
+            <img src="images/digital clock.png">
+            
+            <div class="project-info">
+            
+            <h3>Digital Clock</h3>
+            
+            <p>
+                A real-time digital clock built with HTML, CSS and JavaScript
+            </p>
+            
+            <div class="project-buttons">
+            
+            <a href="#" class="btn demo">Live Demo</a>
+            
+            <a href="#" class="btn code">GitHub</a>
+            
+            </div>
+            
+            </div>
+            
+            </div>
+            
+            </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact me</h2>
+        <p>If you'd like to work with me or have any questions, feel free to reach out.</p>
+        <form action="https://formspree.io/f/blesseddev185@gmail.com"
+                    method="POST">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea type="submit">Write Message</textarea>
+            <button class="send-btn" type="submit">Send Message</button>
+        </form>
+        <div class="socials">
+            <a href="#">Github <i class="fab fa-github"></i></a>
+            <a href="#">LinkedIn <i class="fab fa-linkedin"></i></a>
+            <a href="#">Twitter <i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 Ofofonono Gabriel. All rights reserved</p>
+    </footer>
+    <button id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="portfolio.js"></script>
+</body>
+</html>
